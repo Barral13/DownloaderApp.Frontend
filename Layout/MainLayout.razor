@@ -1,0 +1,27 @@
+﻿@inherits LayoutComponentBase
+<div class="page d-flex flex-column" style="height: 100vh; background-color: #f8f9fa;">
+    <header class="header d-flex justify-content-between align-items-center bg-dark text-white py-2 px-5 shadow-lg">
+        <div class="logo">
+            <img src="/logo.png" alt="Logo" class="img-fluid" style="max-height: 70px;" />
+        </div>
+
+        <a href="https://www.youtube.com"
+           target="_blank"
+           class="btn btn-outline-light d-flex align-items-center justify-content-center px-4 py-2 rounded-pill">
+            <i class="fab fa-youtube me-2 text-danger fa-2x"></i>
+            <strong>YouTube</strong>
+        </a>
+    </header>
+
+    <main class="d-flex justify-content-center align-items-center flex-grow-1 px-2">
+        <article class="content container py-5" style="max-width: 700px">
+            @Body
+        </article>
+    </main>
+
+    <footer class="footer text-center py-4 bg-dark text-white mt-auto">
+        <p class="m-0">
+            &copy; DownloaderApp 2024 - Todos os direitos reservados
+        </p>
+    </footer>
+</div>

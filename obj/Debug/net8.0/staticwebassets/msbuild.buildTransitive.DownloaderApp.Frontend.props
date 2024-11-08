@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DownloaderApp.Frontend.props" />
+</Project>
