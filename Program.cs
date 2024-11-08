@@ -10,12 +10,12 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 if (builder.HostEnvironment.IsDevelopment())
 {
     // URL para o ambiente de desenvolvimento (localhost)
-    builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7083/") });
+    builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7083") });
 }
 else
 {
     // URL para o ambiente de produção (Railway)
-    builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://downloaderappapi-production.up.railway.app/") });
+    builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://downloaderappapi-production.up.railway.app") });
 }
 
 await builder.Build().RunAsync();
