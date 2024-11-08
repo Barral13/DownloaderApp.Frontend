@@ -2055,6 +2055,7 @@ C:\Developer\DownloaderApp\DownloaderApp.Frontend\obj\Debug\net8.0\DownloaderApp
 C:\Developer\DownloaderApp\DownloaderApp.Frontend\obj\Debug\net8.0\refint\DownloaderApp.Frontend.dll
 C:\Developer\DownloaderApp\DownloaderApp.Frontend\obj\Debug\net8.0\DownloaderApp.Frontend.pdb
 C:\Developer\DownloaderApp\DownloaderApp.Frontend\obj\Debug\net8.0\ref\DownloaderApp.Frontend.dll
+C:\Developer\DownloaderApp.Frontend\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
 C:\Developer\DownloaderApp.Frontend\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js
 C:\Developer\DownloaderApp.Frontend\bin\Debug\net8.0\wwwroot\_framework\dotnet.js
 C:\Developer\DownloaderApp.Frontend\bin\Debug\net8.0\wwwroot\_framework\dotnet.js.map
@@ -2062,12 +2063,11 @@ C:\Developer\DownloaderApp.Frontend\bin\Debug\net8.0\wwwroot\_framework\dotnet.n
 C:\Developer\DownloaderApp.Frontend\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.wasm
 C:\Developer\DownloaderApp.Frontend\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.8.0.10.5wum24b1k8.js
 C:\Developer\DownloaderApp.Frontend\bin\Debug\net8.0\wwwroot\_framework\dotnet.runtime.js.map
+C:\Developer\DownloaderApp.Frontend\bin\Debug\net8.0\wwwroot\_framework\DownloaderApp.Frontend.pdb
+C:\Developer\DownloaderApp.Frontend\bin\Debug\net8.0\wwwroot\_framework\DownloaderApp.Frontend.wasm
 C:\Developer\DownloaderApp.Frontend\bin\Debug\net8.0\wwwroot\_framework\icudt_CJK.dat
 C:\Developer\DownloaderApp.Frontend\bin\Debug\net8.0\wwwroot\_framework\icudt_EFIGS.dat
 C:\Developer\DownloaderApp.Frontend\bin\Debug\net8.0\wwwroot\_framework\icudt_no_CJK.dat
-C:\Developer\DownloaderApp.Frontend\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
-C:\Developer\DownloaderApp.Frontend\bin\Debug\net8.0\wwwroot\_framework\DownloaderApp.Frontend.pdb
-C:\Developer\DownloaderApp.Frontend\bin\Debug\net8.0\wwwroot\_framework\DownloaderApp.Frontend.wasm
 C:\Developer\DownloaderApp.Frontend\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.wasm
 C:\Developer\DownloaderApp.Frontend\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.wasm
 C:\Developer\DownloaderApp.Frontend\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.wasm
@@ -2672,6 +2672,7 @@ C:\Developer\DownloaderApp.Frontend\obj\Debug\net8.0\DownloaderApp.Frontend.Asse
 C:\Developer\DownloaderApp.Frontend\obj\Debug\net8.0\DownloaderApp.Frontend.AssemblyInfo.cs
 C:\Developer\DownloaderApp.Frontend\obj\Debug\net8.0\DownloaderApp.Frontend.csproj.CoreCompileInputs.cache
 C:\Developer\DownloaderApp.Frontend\obj\Debug\net8.0\DownloaderApp.Frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\Developer\DownloaderApp.Frontend\obj\Debug\net8.0\DownloaderApp.Frontend.sourcelink.json
 C:\Developer\DownloaderApp.Frontend\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 C:\Developer\DownloaderApp.Frontend\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.wasm
 C:\Developer\DownloaderApp.Frontend\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.Forms.wasm
