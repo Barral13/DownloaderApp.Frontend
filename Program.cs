@@ -6,16 +6,9 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
-// Verifique o ambiente para definir a URL base do HttpClient
-if (builder.HostEnvironment.IsDevelopment())
-{
-    // URL para o ambiente de desenvolvimento (localhost)
-    builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:7083") });
-}
-else
-{
-    // URL para o ambiente de produção (Railway)
-    builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://downloaderappapi-production.up.railway.app") });
-}
+// Recupera a variável de ambiente API_URL configurada no launchSettings.json
+var apiUrl = builder.Configuration["API_URL"] ?? "https://downloaderappapi-production.up.railway.app";
+
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(apiUrl) });
 
 await builder.Build().RunAsync();
